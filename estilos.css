@@ -1,0 +1,49 @@
+h1{
+    font-size:20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight:bold;
+   font-style:italic;
+   line-height:30px;
+   letter-spacing:5px;
+   text-decoration:underline;
+   text-transform:capitalize;
+   text-align:center;
+   text-indent:50px;
+    
+}
+
+.a{
+    background-color: rgb(204, 241, 70);
+    font-size:xx-large
+    
+}
+.imagen{
+    display:block;
+margin:auto;
+display: block;
+width: 200px;
+  height: 100px;
+}
+p{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.ss{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.form-check{
+    text-align: center;
+    text-decoration: rgb(4, 194, 45);
+}
+.link{
+    text-align: center;
+    
+}
+.imai{
+    text-align: center;
+   
+}

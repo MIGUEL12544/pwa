@@ -1,0 +1,44 @@
+p{
+    text-align: justify;
+}
+.capitulo{
+    font-size: 16pt;
+}
+.codigo{
+    margin-top: 20%;
+    padding: 0%;
+    font-weight: bold;
+    background: rgb(234, 229, 229);
+    color: rgb(181, 22, 22);
+    margin: 0;
+    margin-left: 2%;
+}
+p{
+    margin: 0;
+    margin-left: 2%;
+    text-align: justify;
+    margin-right: 2%;
+    
+}
+.ejercicio{
+    color: white;
+    background: rgb(46, 45, 45);
+    padding-left: 2%;
+}
+#cmd{
+    background: rgb(47, 46, 46);
+    color: white;
+    width: 70%;
+    padding-left: 5%;
+    margin-bottom: 2%;
+
+}
+h4{
+    color: green;
+}
+h6{
+    color: blue;
+}
+h2{
+    color: red;
+}

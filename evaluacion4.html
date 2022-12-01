@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="manifest" href="./manifest.json">
+    <script type="text/javascript">
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
+   
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid ml-5">
+            <a class="navbar-brand" href="#">Tutorial Java</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Inicio
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ejemplos.html"><i class="fas fa-contact"></i> Ejemplos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="evaluaciones.html">Evaluaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.w3schools.com/java/default.asp"> Conoce más </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Buscar">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Termino del menú-->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col ">
+                <h2>Cuestionario de capitulo 4. Clases java</h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <p><b>Obtendrás 1 punto por cada respuesta correcta. Al final del cuestionario, se mostrará su puntaje
+                    total. La puntuación máxima es de 15 puntos.</b></p>
+                <h4>
+                    Iniciar el cuestionario
+                </h4>
+                <h6>¡Buena suerte!</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="empezar" class="btn btn-outline-success btn-lg mt-3">Empezar</button>
+            </div>
+        </div>
+        <div id="cuestionario">
+        <div class="row mt-4">
+            <div class="col">
+                <!--pregunta 1-->
+                <h6>Pregunta 1 de 13:</h6>
+                <p>
+                    ¿Qué significa OOP?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p1" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        orientado a objetos
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p1" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        programación orientada a servicios
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p1" id="p1r1"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        programación orientada a
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!--Termina la pregunta 1-->
+        <div class="row mt-4">
+            <div class="col">
+                <!--pregunta 2-->
+                <h6>Pregunta 2 de 13:</h6>
+                <p>
+                    ¿Qué palabra reservada se usa para crear una clase?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p2" id="p2r2"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Con la palabra reservada class
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p2" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Con la palabra reservada void
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p2" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Con la palabra reservada main
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!--Pregunta 3-->
+        <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 3 de 13:</h6>
+                <p>
+                    ¿Java es un lenguaje de programación orientado a objetos?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p3" id=""
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                       Falso
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p3" id="p3r3"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                       Verdadero
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!--Pregunta 4-->
+        <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 4 de 13:</h6>
+                <p>
+                    ¿A partir de que se crea un objeto?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p4" id=""
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        De otro método
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p4" id="p4r4"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        De una clase
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p4" id=""
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                       De una variable
+                    </label>
+                </div>
+            </div>
+        </div>
+         <!--Pregunta 5-->
+         <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 5 de 13:</h6>
+                <p>
+                    ¿Cuál es la palabra clave para crear un objeto?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p5" id="p5r5"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        new
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p5" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        object
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p5" id=""
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                       class
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!--Pregunta 6-->
+        <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 6 de 13:</h6>
+                <p>
+                    ¿Cuál es la forma correcta de declar un objeto de una clase?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p6" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Main ob new Main;
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p6" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Main ob = new ;
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p6" id="p6r6"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Main ob = new Main();
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+         <!--Pregunta 7-->
+         <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 7 de 13:</h6>
+                <p>
+                    ¿ Qué Otro término  se usa para llamar a los atributos de clase?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p7" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        instancias
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p7" id="p7r7"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        campos
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p7" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        referencia
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+         <!--Pregunta 8-->
+         <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 8 de 13:</h6>
+                <p>
+                    ¿Es lo mismo variable y atributo?.
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p8" id="p8r8"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                       Verdadero
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p8" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Falso
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+         <!--Pregunta 9-->
+         <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 9 de 13:</h6>
+                <p>
+                    ¿Cómo se accede al atributo?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p9" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        por su nombre
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p9" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Solo se accede
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p9" id="p9r9"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                       con el nombre del objeto, punto y el nombre del atributo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+         <!--Pregunta 10-->
+         <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 10 de 13:</h6>
+                <p>
+                    ¿Cuál es el acceso de private?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p10" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        desde cualquier método de otra clase
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p10" id="p10r10"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        únicamente la clase puede acceder a la propiedad o método.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p10" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        las clases del mismo paquete
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+        <!--Pregunta 11-->
+        <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 11 de 13:</h6>
+                <p>
+                    ¿Cuál es el método especial para inicializar objetos?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="11" id="p11r11"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        contructor
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p11" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        clase
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p11" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        main()
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+        <!--Pregunta 12-->
+        <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 12 de 13:</h6>
+                <p>
+                    ¿Cuál es el tipo de retorno de un constructor?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p12" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        int
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p12" id="p12r12"
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        void
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p12" id=""
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        String
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+        <!--Pregunta 13-->
+        <div class="row mt-4">
+            <div class="col">
+                <h6>Pregunta 13 de 13:</h6>
+                <p>
+                    ¿Cuál es la principal carateristica de un contructor?
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p13" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Debe tener un tipo de retorno
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p13" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Debe ser declarado
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="p13" id="p13r13" 
+                        value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                       Debe tener el mismo nombre que la clase 
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------->
+        
+        <!-------------------------------->
+        <!--Pregunta 15-->
+
+        <h4 id="resultado"></h4>
+
+        <div class="row mt-4">
+            <div class="col mb-4 ">
+                <button id="btnEnviar4" class="btn btn-primary btn-lg">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <!--fin del container-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
